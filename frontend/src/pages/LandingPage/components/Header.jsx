@@ -46,7 +46,7 @@ const Header = () => {
                 <div className='flex items-center space-x-3'>
                     {isAuthenticated ? (
                         <div className='flex items-center space-x-3'>
-                            <span className='text-gray-700'>Welcome, {user?.fullName}</span>
+                            <span className='text-gray-700'>Welcome, {user?.name}</span>
                             <a
                                 href={user.role === "employer"
                                     ? "/employer-dashboard"
